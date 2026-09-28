@@ -1,0 +1,12 @@
+Algoritmo SumaMultiplos11Mientras
+    Definir N, i, suma Como Entero
+    Escribir "Ingrese la cantidad de múltiplos de 11 (N):"
+    Leer N
+    i <- 1
+    suma <- 0
+    Mientras i <= N Hacer
+        suma <- suma + (i * 11)
+        i <- i + 1
+    FinMientras
+    Escribir "La suma es: ", suma
+FinAlgoritmo

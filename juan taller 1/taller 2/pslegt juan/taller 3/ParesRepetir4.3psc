@@ -1,0 +1,14 @@
+Algoritmo ParesRepetir
+    Definir N, i Como Entero
+    Escribir "Ingrese el valor de N:"
+    Leer N
+    i <- 1
+    Si N >= 1 Entonces
+        Repetir
+            Si i MOD 2 = 0 Entonces
+                Escribir i
+            FinSi
+            i <- i + 1
+        Hasta Que i > N
+    FinSi
+FinAlgoritmo
